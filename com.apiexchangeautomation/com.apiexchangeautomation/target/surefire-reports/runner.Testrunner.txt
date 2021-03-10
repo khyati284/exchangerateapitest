@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runner.Testrunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.533 sec <<< FAILURE! - in runner.Testrunner
+Foreign Exchange Rate(api1)  Time elapsed: 5.28 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+

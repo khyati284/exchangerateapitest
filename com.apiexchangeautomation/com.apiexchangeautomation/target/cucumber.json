@@ -1,0 +1,321 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-10T06:04:46.604Z",
+        "line": 4,
+        "name": "Foreign Exchange Rate",
+        "description": "",
+        "id": "exchange-rate;foreign-exchange-rate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Rates API for Latest foreign exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Latest_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3952658200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "api is available",
+            "match": {
+              "location": "stepdef.Step_definition.api_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3055400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "asserting the success of response",
+            "match": {
+              "location": "stepdef.Step_definition.asserting_the_success_of_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:04:50.678Z",
+        "line": 10,
+        "name": "Foreign Exchange Rate Two",
+        "description": "",
+        "id": "exchange-rate;foreign-exchange-rate-two",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 994100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Rates API for Latest foreign exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Latest_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 335243200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "api is available",
+            "match": {
+              "location": "stepdef.Step_definition.api_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdef.Step_definition.asserting_the_response(Step_definition.java:53)\r\n\tat ✽.asserting the response(file:///C:/Users/hp/Desktop/com.apiexchangeautomation/com.apiexchangeautomation/src/test/resources/featurefiles/Rate.feature:13)\r\n",
+              "duration": 2997800,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "asserting the response",
+            "match": {
+              "location": "stepdef.Step_definition.asserting_the_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:04:51.026Z",
+        "line": 16,
+        "name": "Foreign Exchange Rate Three",
+        "description": "",
+        "id": "exchange-rate;foreign-exchange-rate-three",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5004300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Rates API for Latest foreign exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Latest_foreign_exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 561425400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "incomplete link provided",
+            "match": {
+              "location": "stepdef.Step_definition.incomplete_link_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "supplied call assertion",
+            "match": {
+              "location": "stepdef.Step_definition.supplied_call_assertion()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:04:51.595Z",
+        "line": 22,
+        "name": "Foreign Exchange Rate Four",
+        "description": "",
+        "id": "exchange-rate;foreign-exchange-rate-four",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Rates API for Specific date Foreign Exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Specific_date_Foreign_Exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 316137700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "api for foreign exchange rate is available",
+            "match": {
+              "location": "stepdef.Step_definition.api_for_foreign_exchange_rate_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "asserting success of foreign exchange response",
+            "match": {
+              "location": "stepdef.Step_definition.asserting_success_of_foreign_exchange_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:04:51.915Z",
+        "line": 28,
+        "name": "Foreign Exchange Rate Five",
+        "description": "",
+        "id": "exchange-rate;foreign-exchange-rate-five",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Rates API for Specific date Foreign Exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Specific_date_Foreign_Exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325225700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "api for foreign exchange rate is available",
+            "match": {
+              "location": "stepdef.Step_definition.api_for_foreign_exchange_rate_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdef.Step_definition.asserting_foreign_exchange_response(Step_definition.java:116)\r\n\tat ✽.asserting foreign exchange response(file:///C:/Users/hp/Desktop/com.apiexchangeautomation/com.apiexchangeautomation/src/test/resources/featurefiles/Rate.feature:31)\r\n",
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "asserting foreign exchange response",
+            "match": {
+              "location": "stepdef.Step_definition.asserting_foreign_exchange_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T06:04:52.244Z",
+        "line": 34,
+        "name": "Foreign Exchange Rate Six",
+        "description": "",
+        "id": "exchange-rate;foreign-exchange-rate-six",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Rates API for Specific date Foreign Exchange rates",
+            "match": {
+              "location": "stepdef.Step_definition.rates_API_for_Specific_date_Foreign_Exchange_rates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 330948500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "future date provided in link",
+            "match": {
+              "location": "stepdef.Step_definition.future_date_provided_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "asserting for future date response",
+            "match": {
+              "location": "stepdef.Step_definition.asserting_for_future_date_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene6"
+          }
+        ]
+      }
+    ],
+    "name": "Exchange Rate",
+    "description": "",
+    "id": "exchange-rate",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featurefiles/Rate.feature",
+    "tags": []
+  }
+]
